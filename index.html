@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Título Aqui</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Informações do Agente</h1>
+        <form id="form">
+            <div class="form-card">
+                <h2>Qual o segmento do agente?</h2>
+                <label><input type="radio" name="segmento" value="Contestação Chat">Contestação Chat</label><br>
+                <label><input type="radio" name="segmento" value="Finan Chat">Finan Chat</label><br>
+                <label><input type="radio" name="segmento" value="CAC Voz">CAC Voz</label><br>
+            </div>
+            <div class="form-card">
+                <h2>Qual o gestor?</h2>
+                <select name="gestor">
+                    <option value="Lucas Alves">Lucas Alves</option>
+                    <option value="Maria Natalia">Maria Natalia</option>
+                    <option value="Matheus Silva">Matheus Silva</option>
+                    <option value="Ronald Ferreira">Ronald Ferreira</option>
+                    <option value="Rony Cleiton">Rony Cleiton</option>
+                    <option value="Suellen Nayara">Suellen Nayara</option>
+                    <option value="Jedson Maxwell">Jedson Maxwell</option>
+                </select>
+            </div>
+            <div class="form-card">
+                <h2>Qual a justificativa?</h2>
+                <select name="justificativa">
+                    <option value="Falta">Falta</option>
+                    <option value="Folga banco">Folga banco</option>
+                    <option value="Folga">Folga</option>
+                    <option value="Atestado">Atestado</option>
+                    <option value="Suspensão">Suspensão</option>
+                    <option value="Desligado">Desligado</option>
+                    <option value="Afastamento">Afastamento</option>
+                    <option value="Inoperância">Inoperância</option>
+                    <option value="Folga eleição">Folga eleição</option>
+                    <option value="logado locker">logado locker</option>
+                </select>
+            </div>
+            <div class="form-card">
+                <h2>Qual a matrícula do agente?</h2>
+                    <input type="number" name="matricula" placeholder="Digite a matrícula" required><br>
+            </div>
+            <div class="form-actions">
+                <input type="submit" value="Enviar Respostas">
+            </div>
+        </form>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
